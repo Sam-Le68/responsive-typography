@@ -10,8 +10,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
+  font-family: "Crimson Text", serif;
   color: #222;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -20,10 +21,12 @@ html {
 
 article {
   max-width: 43em;
+  font-size: 100%;
 }
 
 article h1 {
   font-weight: normal;
+  font-size: 200%;
 }
 
 article header {
@@ -42,8 +45,70 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: 0;
 }
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 38em) {
+
+  article {
+    max-width: 43em;
+    font-size: 120%;
+  }
+
+  article h1 {
+    font-size: 220%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  article {
+    max-width: 43em;
+    font-size: 130%;
+  }
+
+  article h1 {
+    font-size: 230%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  article {
+    max-width: 43em;
+    font-size: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  article h1 {
+    font-size: 240%;
+  }
+
+  article header {
+    text-align: left;
+  }
+
+  article > p {
+    text-align: left;
+  }
+
+  blockquote {
+    width: 100%;
+    max-width: 60em;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  blockquote p {
+    text-align: left;
+  }
+
 }

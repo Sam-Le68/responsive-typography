@@ -69,13 +69,12 @@ blockquote {
 @media only screen and (min-width: 38em) {
 
   html {
-    line-height: 1.;
+    line-height: 1;
     font-size: 110%;
   }
 
   article {
     max-width: 43em;
-    font-size: 110%;
   }
 
   article h1 {
@@ -88,11 +87,11 @@ blockquote {
 
   html {
     line-height: 1.5;
+    font-size: 120%;
   }
 
   article {
     max-width: 43em;
-    font-size: 120%;
   }
 
   article h1 {
@@ -111,12 +110,11 @@ blockquote {
 @media only screen and (min-width: 90em) {
 
   html {
-
+    font-size: 130%;
   }
 
   article {
     max-width: 43em;
-    font-size: 130%;
   }
 
   article h1 {

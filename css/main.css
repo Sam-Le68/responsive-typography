@@ -21,7 +21,9 @@ html {
 
 article {
   max-width: 43em;
+  width: 100%;
   font-size: 100%;
+  margin: 0 auto;
 }
 
 article h1 {
@@ -56,11 +58,11 @@ blockquote {
 
   article {
     max-width: 43em;
-    font-size: 120%;
+    font-size: 110%;
   }
 
   article h1 {
-    font-size: 220%;
+    font-size: 210%;
   }
 
 }
@@ -69,11 +71,19 @@ blockquote {
 
   article {
     max-width: 43em;
-    font-size: 130%;
+    font-size: 120%;
   }
 
   article h1 {
-    font-size: 230%;
+    font-size: 220%;
+  }
+
+  blockquote {
+    width: 100%;
+    max-width: 24em;
+    text-align: left;
+    margin: 0 auto;
+
   }
 
 }
@@ -82,13 +92,11 @@ blockquote {
 
   article {
     max-width: 43em;
-    font-size: 140%;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 130%;
   }
 
   article h1 {
-    font-size: 240%;
+    font-size: 230%;
   }
 
   article header {
@@ -101,10 +109,9 @@ blockquote {
 
   blockquote {
     width: 100%;
-    max-width: 60em;
+    max-width: 24em;
     text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
   }
 
   blockquote p {
